@@ -1,0 +1,250 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12 Apr, 2021, 7:45:59 AM
+    Author     : Mansi
+*/
+#nav{
+				width:100%;
+				position:sticky;
+				top:0;
+				background-color:white;
+				padding-top:2px;
+				padding-bottom:2px;
+
+		}
+		#nav >ul
+		{
+				list-style-type:none;
+				margin-left:400px;
+				
+		}
+		#nav > ul li{
+						float:left;
+						font-size:20px;
+						color:#1E90FF;
+						display:block;
+						padding-right:20px;
+						font-weight:700;
+		}
+		#nav > ul li a
+		{
+				
+				text-decoration:none;
+				display:block;
+				background:none;
+				font-size:20px;
+				padding-left:20px;
+				margin:2px;
+				color:#1E90FF;
+				font-weight:700;
+				
+				
+		}
+		#nav > ul li a:hover
+		{
+				color:black;
+				display:block;
+				background:none;
+		}
+.btn2 {
+  background-color: black;
+  border: none;
+  color: white;
+  width:auto;
+  height:auto;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display:inline-block;
+  font-size: 16px;
+ 
+}
+.btn2:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}	
+.nav:after { 
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+.col-6 {
+
+	width:40%;
+	float:left;
+}
+.container1
+{
+	padding-left:10%;
+	padding-right:10%;
+	padding-top:30px;
+	margin-bottom: 100px;
+}
+
+
+
+.quiz_tour,.quiz_tour:before,.quiz_tour:after {
+	
+	font-family: Gotham Rounded;
+	box-sizing:border-box;
+}
+
+.quiz_tour {
+	--hue-neutral:200;
+	--hue-wrong: 0;
+	--hue-correct: 145;
+}
+.quiz_tour {
+	--hue: var(--hue-neutral);
+	padding: 20;
+	display:flex;
+	width: 100vw;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	background-color: hsl(var(--hue), 100% , 20% );
+	border:3px;
+	height:400px;
+	width:80%;
+	margin-left:150;
+	margin-right:20;
+	margin-top:50;
+	margin-bottom:100;
+	 
+}
+
+.quiz_tour.correct {
+	--hue: var(--hue-correct);
+}
+
+.quiz_tour.wrong {
+	--hue: var(--hue-wrong);
+}
+
+.container {
+	width: 800px;
+	max-width: 80%;
+	background-color: white;
+	border-radius: 5px;
+	padding: 10px;
+	box-shadow: 0 0 10px 2px;
+}
+
+.btn-grid {
+	display: grid;
+	grid-template-columns: repeat(2,auto);
+	gap: 10px;
+	margin: 20px 0;
+}
+
+.btn {
+	--hue: var(--hue-neutral);
+	border: 1px solid hsl(var(--hue), 100%, 30%);
+	background-color: hsl(var(--hue), 100% , 20% );
+	border-radius: 5px;
+	padding: 5px 10px;
+	color: white;
+	outline: none;
+}
+
+.btn:hover {
+	border-color: black;
+}
+
+.btn.correct {
+	--hue: var(--hue-correct);
+	color: black;
+}
+
+.btn.wrong {
+	--hue: var(--hue-wrong);
+}
+
+.start-btn, .next-btn {
+	font-size: 1.5rem;
+	font-weight: bold;
+	padding: 10px 20px;
+}
+
+.controls {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hide {
+	display: none;
+}
+.container2
+{
+	text-align:center;
+	width:45%;
+	margin-left:400px;
+}
+.heading
+{
+	color: #7c795d; font-family: "Great Vibes", cursive; font-size: 45px; font-weight: normal; line-height: 48px; margin: 0;
+	margin-bottom:50;
+}
+.content{
+	font-family: 'Inder', sans-serif; line-height: 28px; margin-bottom: 15px; color: #666;
+	margin-bottom:100;
+}
+.key{
+		width:100%;
+		color: #800080; font-family: "Great Vibes", cursive; font-size: 30px; font-weight: normal; line-height: 48px; margin: 0;
+		margin-bottom:50;
+		background-color:#DCDCDC;
+}
+.footer{
+	width:100%;
+	background-color:black;
+	height:300px;
+	margin-top:200px;
+	
+}
+.footer > ul li{
+						float:left;
+						font-size:20px;
+						color:white;
+						display:block;
+						padding-right:20px;
+						font-weight:700;
+						margin-left:70px;
+						margin-top:70px;
+		}
+.footer > ul li a
+		{
+				
+				text-decoration:none;
+				display:block;
+				background:none;
+				font-size:20px;
+				padding-left:20px;
+				margin:2px;
+				color:white;
+				font-weight:700;
+				
+				
+		}
+.fa {  
+  padding: 7px;  
+text-align: center;  
+margin-top:200px;
+
+  font-size: 30px;   
+ color:white;	
+}  
+
+.fa:hover {  
+    opacity: 0.9;  
+} 
+.copyright{
+	color:white;
+	text-decoration:none;
+}
