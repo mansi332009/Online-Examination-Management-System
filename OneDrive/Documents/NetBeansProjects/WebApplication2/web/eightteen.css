@@ -1,0 +1,106 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 21, 2021, 11:58:10 AM
+    Author     : Anjali
+*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:montserrat;
+}
+body{
+    display:flex;
+    height:100vh;
+    justify-content: center;
+    
+    background:linear-gradient(120deg,#2980b9,#8e44ad);
+}
+.container{
+    
+    width:85%;
+    background: #fff;
+    padding:25px 30px;
+    border-radius: 5px;
+    top:0;
+}
+h1{
+    color:color:#1A5276;
+}
+.container .title{
+    font-size:25px;
+    font-weight:500;
+    position:relative;
+    margin-left: 25px;
+    
+}
+.center{
+    display:flex;
+    justify-content: center;
+    height:200px;
+    align-items: center;
+    border:none;
+    margin-top:230px;
+}
+.container .title h1{
+    text-align:center;
+    color:#666699;
+    postion :fixed;
+    font-size:35px;
+}
+.t1{
+   
+    color:red;
+    font-size:20px;
+    background-color: rgba(199, 165, 0,0.5);
+    border:2px solid black;
+    
+}
+.t1:hover{
+    background-color:#FFC300 ;
+}
+.t2{
+    
+    border:2px solid ;
+    
+}
+table, th, td {
+ 
+  border: 1px solid black;
+  text-align: center;
+  width:500px;
+  
+}
+th, td {
+  border-bottom: 2px solid #ddd;
+}
+tr:hover {background-color: #f5f5f5;}
+.a1{
+    display:none;
+}
+button{
+    width:100px;;
+        height:25px;
+        border:1px solid;
+        background: red;
+        font-size:18px;
+        coloe:#e9f4fb;
+        font-weight: 700;
+        cursor:pointer;
+        outline:none;
+        border-radius:25px;
+        margin-bottom: 4px;
+        margin-top: 4px;
+        margin-right: 2px;
+        margin-left: 2px;
+}
+button:hover{
+    border-color:#2691d9;
+    transition: .5s;
+    background-color: #FFC300 ;
+}

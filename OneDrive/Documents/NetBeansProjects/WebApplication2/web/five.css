@@ -1,0 +1,166 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 12, 2021, 3:58:08 PM
+    Author     : Anjali
+*/
+
+@import "lesshat";
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:montserrat;
+}
+body{
+    display:flex;
+    height:100vh;
+    justify-content: center;
+    align-items:center;
+    background:linear-gradient(120deg,#2980b9,#8e44ad);
+}
+.container{
+    max-width:700px;
+    width:100%;
+    background: #fff;
+    padding:25px 30px;
+    border-radius: 5px;
+}
+.container .title{
+    font-size:25px;
+    font-weight:500;
+    position:relative;
+}
+.container .title::before{
+    content:'';
+    position:absolute;
+    left:0;
+    bottom:0;
+    height:3px;
+    width: 30px;
+    background: linear-gradient(120deg,#2980b9,#8e44ad);  
+}
+.container form .user-details{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    margin:20px 0 12px 0;
+}
+form .user-details .input-box{
+    margin-bottom:15px;
+    width:40%;    
+}
+.user-details .input-box .details{
+    font-weight:500;
+    margin-bottom:5px;
+    display:block;
+}
+.user-details .input-box input{
+    height:45px;
+    width:100%;
+    outline:none;
+    border-radius: 5px;
+    border:1px solid #ccc;
+    padding-left:15px;
+    font-size:16px;
+    border-bottom-width:2px;
+    transition: all 0.3s ease;
+}
+.user-details .input-box input:focus,.user-details .input-box input:valid{
+    border-color:#9b59b5;
+}
+.user-details .input-box textArea{
+    height:100%;
+    width:100%;
+    outline:none;
+    border-radius: 5px;
+    border:1px solid #ccc;
+    padding-left:15px;
+    font-size:16px;
+    border-bottom-width:2px;
+    transition: all 0.3s ease;
+}
+.user-details .input-box textArea:focus,.user-details .input-box textArea:valid{
+    border-color:#9b59b5;
+}
+
+form .experience-details .experience-title{
+    font-size:20;
+    font-weight: 500;
+}
+form .experience-details .experience-category{
+      width:80%;
+      margin:14px 0;
+      display: flex;
+      justify-content: space-between;
+}
+.experience-details .experience-category label{
+    display:flex;
+    align-items:center; 
+}
+.experience-details .experience-category .dot{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background: #d9d9d9;
+    margin-right:10px;
+    border:5px solid transparent;
+    transition: all 0.3s ease;
+}
+#dot-3:checked ~ .experience-category label .three,#dot-4:checked ~ .experience-category label .four,#dot-5:checked ~ .experience-category label .five{
+    border-color: #d9d9d9;
+    background: #9b59b6;
+    
+}
+form .service-details .service-title{
+    font-size:20;
+    font-weight: 500;
+}
+form .service-details .service-category{
+      width:80%;
+      margin:14px 0;
+      display: flex;
+      justify-content: space-between;
+}
+.service-details .service-category label{
+    display:flex;
+    align-items:center; 
+}
+.service-details .service-category .dot{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background: #d9d9d9;
+    margin-right:10px;
+    border:5px solid transparent;
+    transition: all 0.3s ease;
+}
+#dot-1:checked ~ .service-category label .one,#dot-2:checked ~ .service-category label .two{
+    border-color: #d9d9d9;
+    background: #9b59b6;
+    
+}
+form .button{
+    height: 45px;
+    margin:45px 0;
+}
+form .button input{
+    height:100%;
+    width:100%;
+    outline:none;
+    color:#fff;
+    border:none;
+    font-size:18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 5PX;
+    background:linear-gradient(120deg,#2980b9,#8e44ad) ;
+}
+form .button input:hover{
+    background:linear-gradient(-120deg,#2980b9,#8e44ad) ;
+}
+
+
