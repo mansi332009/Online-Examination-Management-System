@@ -98,11 +98,11 @@
 
   MANAGE FEEDBACK
   
-    ![image](https://user-images.githubusercontent.com/60621421/126096297-acf3e9d0-8803-46e9-a578-738a0958a5f9.png)
+   ![image](https://user-images.githubusercontent.com/60621421/126096297-acf3e9d0-8803-46e9-a578-738a0958a5f9.png)
 
   MANAGE CONTACT
   
-    ![image](https://user-images.githubusercontent.com/60621421/126096313-7a4c82eb-c126-4b29-a0b4-39e6d536b681.png)
+   ![image](https://user-images.githubusercontent.com/60621421/126096313-7a4c82eb-c126-4b29-a0b4-39e6d536b681.png)
 
 6) LOGOUT PAGE
 
