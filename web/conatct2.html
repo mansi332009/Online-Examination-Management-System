@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" type="text/css" href="style/style.css">
+    <!-- Add font awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link href="nine.css" type="text/css" rel="stylesheet">
+   <script src="namecheck.js"></script>
+    <title>Contact Us</title>
+    </head>
+     <body>
+   <!-- contact section -->
+         <section id="contact-section">
+           <div class="container">
+           	 <h2>Contact Us</h2>
+              <p>Email us and keep upto date with our latest news</p>
+             <div class="contact-form">
+
+                  <!-- First grid -->
+               <div>
+                 <i class="fa fa-map-marker"></i><span class="form-info">  Banasthali Vidyapith,Tonk</span><br>
+                 <i class="fa fa-phone" > </i><span class="form-info"> 820XXXXXXX                                            
+                 </span><br>
+                 <i class="fa fa-envelope"></i><span class="form-info">onlinexaminationmanagement@gmail.com</span></br>
+               </div>
+               
+                   <!-- second grid -->
+           <div>        
+             <form action="contactser" >
+                 <input type="text" placeholder="Your Name"  name="sname" id='full-name' required pattern="^[a-zA-Z]+(?:\s[a-zA-Z]+)+$"/><span id=m7></span>  
+                 <input type="text" placeholder="Your Are Teaacher Or Student"  name="utype" required>
+               <input type="Email" placeholder="Email" name="semail" required><br>
+               <input type="text" placeholder="Subject of this message" name="messagesub"><br>
+               <textarea name="message" placeholder="How can we help you? We are listening." rows="5" required></textarea><br>
+               <input class="submit" type="submit"  value ="Send Message" onclick="validate()"/>
+             </form>   
+               </div>
+             </div>
+           </div>
+         </section>
+     </body>
+
